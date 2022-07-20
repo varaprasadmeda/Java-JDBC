@@ -38,7 +38,7 @@ public class InsertEmployeeExample {
 		Connection con = getConnection();
 		PreparedStatement stmt;
 		try {
-			stmt = con.prepareStatement("insert into java_practice.employees values(?,?,?,?,?,?,?)");
+			stmt = con.prepareStatement("insert into JDBC_PRACTICE.EMPLOYEES values(?,?,?,?,?,?,?)");
 			stmt.setInt(1, empId);// 1 specifies the first parameter in the query
 			stmt.setString(2, firstName);
 			stmt.setString(3, lastName);

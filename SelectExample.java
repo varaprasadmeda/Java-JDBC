@@ -17,7 +17,7 @@ public class SelectExample {
 		try {
 			stmt = con.createStatement();
 			System.out.println("Statement object created successfully");
-			ResultSet rs = stmt.executeQuery("select * from java_practice.employees");
+			ResultSet rs = stmt.executeQuery("select * from JDBC_PRACTICE.EMPLOYESS");
 			
 			//Retrieving purpose
 			while (rs.next()) {
